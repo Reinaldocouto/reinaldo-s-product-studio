@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Mail, Linkedin } from "lucide-react";
+import { ArrowRight, Mail, Linkedin, Phone, MessageCircle } from "lucide-react";
 import { site } from "@/data/site";
 
 export const Contact = () => {
+  const waLink = `https://wa.me/55${site.phone}?text=${encodeURIComponent(site.whatsappMessage)}`;
+
   return (
     <section id="contato" className="section-padding relative overflow-hidden">
       <div className="absolute inset-0 bg-radial-glow opacity-60 pointer-events-none" />
@@ -28,20 +30,42 @@ export const Contact = () => {
 
           <div className="mt-10 flex flex-wrap justify-center gap-3">
             <a
-              href={`mailto:${site.email}`}
+              href={waLink}
+              target="_blank"
+              rel="noreferrer"
               className="group inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground shadow-glow hover:bg-primary-hover transition-colors"
             >
-              <Mail size={16} />
-              Entrar em contato
+              <MessageCircle size={16} />
+              Conversar no WhatsApp
               <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
             </a>
             <a
+              href={`tel:+55${site.phone}`}
+              className="inline-flex items-center gap-2 rounded-full border border-border bg-card/40 px-6 py-3 text-sm font-medium hover:bg-card transition-colors"
+            >
+              <Phone size={16} />
+              Ligar {site.phoneDisplay}
+            </a>
+            <a
+              href={`mailto:${site.email}`}
+              className="inline-flex items-center gap-2 rounded-full border border-border bg-card/40 px-6 py-3 text-sm font-medium hover:bg-card transition-colors"
+            >
+              <Mail size={16} />
+              E-mail
+            </a>
+            <a
               href={site.social.linkedin}
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-border bg-card/40 px-6 py-3 text-sm font-medium hover:bg-card transition-colors"
             >
               <Linkedin size={16} />
-              Ver LinkedIn
+              LinkedIn
             </a>
+          </div>
+
+          <div className="mt-8 text-xs text-muted-foreground font-mono">
+            {site.email}
           </div>
         </motion.div>
       </div>
