@@ -3,11 +3,14 @@ export const site = {
   role: "Desenvolvedor com visão de produto e operação",
   tagline:
     "Crio produtos web com foco em experiência, organização operacional e resolução de problemas reais — unindo técnica, lógica de negócio e execução consistente.",
-  email: "contato@reinaldocouto.dev",
+  email: "reinaldocouto10@gmail.com",
+  phone: "11995384270",
+  phoneDisplay: "(11) 99538-4270",
+  whatsappMessage: "Olá Reinaldo! Vi seu portfólio e gostaria de conversar.",
   social: {
-    github: "https://github.com/",
+    github: "https://github.com/Reinaldocouto",
     linkedin: "https://linkedin.com/in/",
-    cv: "#",
+    cv: "/reinaldo-couto-cv.pdf",
   },
 };
 
