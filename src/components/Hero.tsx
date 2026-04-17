@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Github, Linkedin, FileText } from "lucide-react";
 import { site } from "@/data/site";
+import { CvDialog } from "@/components/CvDialog";
 
 export const Hero = () => {
   return (
@@ -86,10 +87,17 @@ export const Hero = () => {
             <a href={site.social.linkedin} aria-label="LinkedIn" className="hover:text-foreground transition-colors">
               <Linkedin size={18} />
             </a>
-            <a href={site.social.cv} aria-label="Currículo" className="hover:text-foreground transition-colors inline-flex items-center gap-1.5 text-xs">
-              <FileText size={16} />
-              Currículo
-            </a>
+            <CvDialog
+              trigger={
+                <button
+                  aria-label="Visualizar currículo"
+                  className="hover:text-foreground transition-colors inline-flex items-center gap-1.5 text-xs"
+                >
+                  <FileText size={16} />
+                  Currículo
+                </button>
+              }
+            />
           </motion.div>
         </div>
 
