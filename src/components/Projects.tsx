@@ -102,7 +102,7 @@ const ProjectCard = ({
         <p className="text-sm md:text-[15px] text-muted-foreground leading-relaxed mb-5">
           {project.tagline}
         </p>
-        <div className="flex flex-wrap gap-1.5">
+        <div className="flex flex-wrap gap-1.5 mb-5">
           {project.stack.slice(0, large ? 6 : 4).map((s) => (
             <span
               key={s}
@@ -112,6 +112,17 @@ const ProjectCard = ({
             </span>
           ))}
         </div>
+        {project.links?.demo && (
+          <a
+            href={project.links.demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            className="relative z-30 inline-flex items-center gap-1.5 font-mono text-[11px] uppercase tracking-[0.15em] text-primary hover:text-primary-hover transition-colors story-link"
+          >
+            Ver demo <ExternalLink size={12} />
+          </a>
+        )}
       </div>
     </motion.div>
   );
