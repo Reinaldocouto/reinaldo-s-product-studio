@@ -2,14 +2,18 @@ export const site = {
   name: "Reinaldo Couto",
   role: "Desenvolvedor com visão de produto e operação",
   tagline:
-    "Crio produtos web com foco em experiência, organização operacional e resolução de problemas reais — unindo técnica, lógica de negócio e execução consistente.",
+    "Construo produtos web com foco em clareza, operação e resultado — conectando interface, regra de negócio e contexto real de uso.",
+  description:
+    "Portfólio de Reinaldo Couto com cases de produto digital, front-end e operação: TOGO, Estaciona Aí e Clima Safe.",
+  baseUrl: "https://reinaldocouto.dev",
+  location: "São Paulo, SP — Brasil",
   email: "reinaldocouto10@gmail.com",
   phone: "11995384270",
   phoneDisplay: "(11) 99538-4270",
-  whatsappMessage: "Olá Reinaldo! Vi seu portfólio e gostaria de conversar.",
+  whatsappMessage: "Olá Reinaldo! Vi seu portfólio e gostaria de conversar sobre um projeto.",
   social: {
     github: "https://github.com/Reinaldocouto",
-    linkedin: "https://linkedin.com/in/",
+    linkedin: "https://www.linkedin.com/in/reinaldo-couto/",
     cv: "/reinaldo-couto-cv.pdf",
   },
 };
@@ -50,19 +54,19 @@ export const stack = [
 
 export const experience = [
   {
-    period: "Hoje",
+    period: "Atual",
     title: "Desenvolvimento de produtos web",
     description:
-      "Construção de sistemas web com foco em produto, operação e arquitetura escalável. Atuação ponta a ponta entre interface, integrações e modelagem.",
+      "Construção de aplicações web orientadas a produto e operação, com atuação ponta a ponta em interface, integrações, modelagem de domínio e entrega contínua.",
   },
   {
-    period: "Transição",
-    title: "Migração consolidada para tecnologia",
+    period: "Consolidação",
+    title: "Construção de produtos e prática autoral",
     description:
-      "Formação técnica somada à prática autoral em projetos reais — TOGO, Estaciona Aí e Clima Safe — com foco em execução e visão de produto.",
+      "Projetos próprios e experiências em software consolidaram uma atuação orientada a produto, operação, modelagem e entrega ponta a ponta.",
   },
   {
-    period: "Antes",
+    period: "Base profissional",
     title: "Atuação em contexto crítico",
     description:
       "Trajetória anterior em ambiente de pressão e rotina crítica, desenvolvendo capacidade de decisão, leitura de contexto e responsabilidade operacional.",

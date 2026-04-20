@@ -1,0 +1,11 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="900" fill="#0B1020"/>
+<rect x="64" y="72" width="1472" height="756" rx="26" fill="#161F34" stroke="#27324A"/>
+<circle cx="1376" cy="90" r="198" fill="#F59E0B" fill-opacity="0.18"/>
+<rect x="160" y="180" width="880" height="90" rx="14" fill="#1D2940"/>
+<rect x="160" y="315" width="560" height="378" rx="16" fill="#0F172A" stroke="#27324A"/>
+<rect x="784" y="315" width="592" height="162" rx="16" fill="#0F172A" stroke="#27324A"/>
+<rect x="784" y="522" width="592" height="171" rx="16" fill="#0F172A" stroke="#27324A"/>
+<text x="160" y="135" fill="#A9B4C8" font-size="31" font-family="Inter, Arial" font-weight="600">Case real • preview visual</text>
+<text x="160" y="279" fill="#F59E0B" font-size="65" font-family="Inter, Arial" font-weight="700">CLIMA SAFE</text>
+</svg>
