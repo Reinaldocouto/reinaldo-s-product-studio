@@ -40,7 +40,7 @@ export const stack = [
   },
   {
     group: "Back-end & dados",
-    items: ["APIs REST", "Supabase", "PostgreSQL", "Autenticação", "Integrações"],
+    items: ["C#", ".NET", "APIs REST", "PostgreSQL", "Autenticação", "Integrações"],
   },
   {
     group: "Produto & processo",
