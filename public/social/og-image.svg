@@ -1,0 +1,10 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0B1020"/>
+  <circle cx="990" cy="-40" r="280" fill="#5EEAD4" fill-opacity="0.15"/>
+  <circle cx="190" cy="660" r="220" fill="#60A5FA" fill-opacity="0.18"/>
+  <rect x="96" y="106" width="1008" height="418" rx="28" fill="#161F34" stroke="#27324A"/>
+  <text x="148" y="230" fill="#F4F7FB" font-size="64" font-family="Inter, Arial, sans-serif" font-weight="700">Reinaldo Couto</text>
+  <text x="148" y="292" fill="#5EEAD4" font-size="34" font-family="Inter, Arial, sans-serif">Desenvolvedor com visão de produto e operação</text>
+  <text x="148" y="358" fill="#A9B4C8" font-size="28" font-family="Inter, Arial, sans-serif">Cases reais • UX orientada • execução ponta a ponta</text>
+  <text x="148" y="432" fill="#A9B4C8" font-size="24" font-family="Inter, Arial, sans-serif">TOGO • Estaciona Aí • Clima Safe</text>
+</svg>
