@@ -36,7 +36,7 @@ export const highlights = [
 export const stack = [
   {
     group: "Front-end",
-    items: ["React", "TypeScript", "Tailwind CSS", "Vite", "Framer Motion", "UI responsiva"],
+    items: ["React", "TypeScript", "Tailwind CSS", "Vite", "JavaScript", "UI responsiva"],
   },
   {
     group: "Back-end & dados",
