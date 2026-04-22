@@ -37,8 +37,10 @@ export const projects: Project[] = [
     tagline: "Plataforma de gestão modular orientada à operação real.",
     summary:
       "Sistema web de gestão com módulos integrados de agenda, atendimento, estoque, financeiro e relatórios, com foco em clareza operacional.",
+
     cover: "/togo.jpeg",
     thumb: "/togo.jpeg",
+ main
     accent: "teal",
     featured: true,
     highlights: [
@@ -82,12 +84,15 @@ export const projects: Project[] = [
         "Produto com base escalável e fluxo operacional coeso, preparado para expansão de módulos e amadurecimento comercial.",
       gallery: [
         {
+
           src: "/togo.jpeg",
+ main
           alt: "Dashboard do TOGO com visão operacional",
           caption: "Visão central com indicadores e atalhos para rotinas críticas.",
         },
         {
-          src: "/togo.jpeg",
+
+          src: "/togo.jpeg",main
           alt: "Módulos operacionais do TOGO",
           caption: "Fluxos modulares entre atendimento, estoque e financeiro.",
         },
