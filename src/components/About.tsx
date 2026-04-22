@@ -19,10 +19,7 @@ export const About = () => {
               Quem sou
             </div>
             <p className="text-base md:text-lg text-foreground/90 leading-relaxed">
-              Desenvolvedor em transição consolidada para tecnologia, com
-              experiência prática em software, visão de produto e bagagem
-              anterior em ambiente crítico — onde decisão, leitura de contexto
-              e responsabilidade operacional eram parte da rotina.
+              Desenvolvedor com experiência prática em software, visão de produto e bagagem sólida em ambientes críticos, onde decisão, leitura de contexto e responsabilidade operacional sempre fizeram parte da rotina.
             </p>
           </motion.div>
 
