@@ -40,7 +40,6 @@ export const projects: Project[] = [
 
     cover: "/togo.jpeg",
     thumb: "/togo.jpeg",
- main
     accent: "teal",
     featured: true,
     highlights: [
@@ -86,13 +85,12 @@ export const projects: Project[] = [
         {
 
           src: "/togo.jpeg",
- main
           alt: "Dashboard do TOGO com visão operacional",
           caption: "Visão central com indicadores e atalhos para rotinas críticas.",
         },
         {
 
-          src: "/togo.jpeg",main
+          src: "/togo.jpeg",
           alt: "Módulos operacionais do TOGO",
           caption: "Fluxos modulares entre atendimento, estoque e financeiro.",
         },
